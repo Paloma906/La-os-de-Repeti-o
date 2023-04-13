@@ -1,0 +1,36 @@
+Algoritmo "EXERCÍCIO 2"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Escreva um algoritmo que leia 5 valores inteiros e ao final
+// mostre:
+// a)quantos números são pares;
+// b)quantos números são impares;
+// Autor(a)    : Paloma Costa
+// Data atual  : 13/04/2023
+Var
+i,j: inteiro
+contadorPar,contadorImpar:inteiro
+
+Inicio
+
+
+para i de 1 ate 5 faca
+  escreval("Digite um número: ")
+  leia(j)
+  
+se j mod 2 = 0 entao
+   contadorPar <- contadorPar + 1
+senao
+   contadorImpar <- contadorImpar + 1
+
+fimse
+fimpara
+Escreval("Quantos números pares? ", contadorPar)
+
+Escreval("Quantos números impares? ",contadorImpar)
+
+  
+
+
+
+Fimalgoritmo
