@@ -1,0 +1,33 @@
+Algoritmo "EXERCÍCIO 1 - 13/04/2023..."
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/04/2023
+Var
+nota,media: real
+resposta:caracter
+contador:inteiro
+soma:real
+
+
+Inicio
+repita
+  escreval("Digite uma nota: ")
+  leia(nota)
+  
+  escreval("Deseja digitar mais uma nota? ")
+  leia(resposta)
+  
+  soma <- soma + nota
+  contador <- contador + 1
+ate (resposta = "NÃO")
+
+  media <- soma/contador
+
+se (resposta = "NÃO") entao
+   escreval("A média é: ",media)
+fimse
+
+
+Fimalgoritmo
