@@ -1,0 +1,25 @@
+Algoritmo "QUESTÃO 3 - 13/04/2023"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Escrever um algoritmo que gera e escreve os números ímpares
+// entre 100 e 200.
+// Autor(a)    : Paloma Costa
+// Data atual  : 15/04/2023
+Var
+i: inteiro
+
+
+
+Inicio
+
+para i de 100 ate 200 faca
+
+ se (i mod 2) <> 0 entao
+ Escreval("Os numeros ímpares são: ",i)
+
+fimse
+fimpara
+
+
+
+Fimalgoritmo
